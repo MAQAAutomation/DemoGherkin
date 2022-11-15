@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <!-- Run test application parameters -->
+    <Parameter name="User" value="tomsmith" />
+    <Parameter name="Password" value="SuperSecretPassword!" />
+    <Parameter name="TestBrowser" value="chrome" />
+    <!-- Possible values:
+          - chrome
+          - chromeheadless
+          - ie
+          - firefox
+          - edge-->
+    <!-- Environment parameters -->
+    <Parameter name="BackendServer" value="the-internet.herokuapp.com" />
+    <Parameter name="PredefinedEnvironmentName" value="the-internet.herokuapp.com" />
+    <Parameter name="EnvironmentURL" value="https://the-internet.herokuapp.com" />
+    <Parameter name="EnvironmentConfiguration" value="Vanilla_MGA" />
+    <Parameter name="CreationInitialData" value="false" />
+    <Parameter name="AuthServerEndpoint" value="/login" />
+    <Parameter name="SecurityServerURL" value="https://the-internet.herokuapp.com" />
+
+    <!-- Log parameters -->
+    <Parameter name="TestResultsDir" value="..\..\..\TestResults" />
+    <Parameter name="TestLogLevel" value="INFO" />
+    <!-- LOG LEVELS: ALL, DEBUG, INFO, ERROR, FAIL, PASS, OFF -->
+    <Parameter name="TestResultFormat" value="VS" />
+    <!--TestResultFormat Posible values: 
+      VS: Visual Studio Enviroment: One testResult with all the Test run in a Test execution.
+      TFS: Each Test has a Test result Report in a Zip format. Only when you run the Tests in a TFS Build. 
+    -->
+    <Parameter name="DefaultWebDriverTimeout" value="150" />
+   </TestRunParameters>
+</RunSettings>

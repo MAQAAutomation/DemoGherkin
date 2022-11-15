@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <TestRunParameters>
+    <!-- Environment parameters -->
+    <Parameter name="PredefinedEnvironmentName" value="jsonplaceholder.typicode.com" />
+    <Parameter name="AuthServerEndpoint" value="/Authentication/connect/token" />
+    <Parameter name="SecurityServerURL" value="https://jsonplaceholder.typicode.com" />
+    <Parameter name="RestServiceUrl" value="https://jsonplaceholder.typicode.com" />
+
+    <!-- API REST Parameters -->
+    <Parameter name="DefaultPageSize" value="200" />
+
+    <!-- WebHook -->
+    <Parameter name="WebHookTimeoutSeconds" value="120"/>
+
+	<!-- logs -->
+	<Parameter name="TestLogLevel" value="INFO" />
+	<Parameter name="TestResultFormat" value="VS" />
+	  
+	
+   
+  </TestRunParameters>
+</RunSettings>

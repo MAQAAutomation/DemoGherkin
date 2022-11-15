@@ -1,0 +1,13 @@
+﻿{
+  "stepAssemblies": [
+    {
+      "assembly": "RESTFW"
+    },
+    {
+      "assembly": "CommonFW"
+    }
+  ],
+  "generator": {
+    "allowRowTests": false
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "stepAssemblies": [
+    {
+      "assembly": "WebFW"
+    },
+    {
+      "assembly": "CommonFW"
+    }
+
+  ],
+  "generator": {
+    "allowRowTests": false
+  }
+}
